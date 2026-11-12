@@ -1,0 +1,33 @@
+The MIT License in the LICENSE file applies to the source code of this project
+only (lib/, test/, tool/ and the platform folders).
+
+The bundled content under assets/ is NOT covered by the MIT License. Each item
+remains under the terms of its own source:
+
+- Quran text (assets/quran/*.json "ar" field, search.txt)
+  Tanzil Project, https://tanzil.net — Uthmani and Simple Clean texts.
+  Creative Commons Attribution 3.0. The text must be reproduced verbatim and
+  credited to Tanzil with a link. See assets/quran/TANZIL-NOTICE.txt.
+
+- Tafsir (assets/quran/*.json "tafsir" field)
+  Al-Tafsir al-Muyassar, King Fahd Complex for the Printing of the Holy Quran.
+  No explicit redistribution licence was found. Included for non-commercial,
+  educational use; confirm the terms before any commercial use.
+
+- English Quran translation (assets/quran/*.json "en" field)
+  Saheeh International. Non-commercial use only; commercial use requires the
+  publisher's permission.
+
+- Hadith text and English translations (assets/azkar.json)
+  Taken from Sahih al-Bukhari and Sahih Muslim via the fawazahmed0/hadith-api
+  dataset (Unlicense). English translations by Muhammad Muhsin Khan (Bukhari)
+  and Abdul Hamid Siddiqui (Muslim); the dataset does not state the copyright
+  status of the translations themselves.
+
+- Font (assets/fonts/AmiriQuran.ttf)
+  Amiri Quran, SIL Open Font License 1.1. See assets/fonts/AmiriQuran-OFL.txt.
+
+Sources, URLs and the build steps are documented in tool/README.md.
+
+If you are a rights holder and want any of this content removed, please open
+an issue on the repository.
